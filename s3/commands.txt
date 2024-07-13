@@ -1,0 +1,5 @@
+aws s3 rm s3://<bucket-name>/<path/file> --profile local --endpoint-url http://localhost:4566     
+
+aws s3api delete-bucket --bucket <bucket-name> --profile local --endpoint-url http://localhost:4566  
+
+aws s3 cp <local-path> s3://<bucket-name>/<path> --profile local --endpoint-url http://localhost:4566  
